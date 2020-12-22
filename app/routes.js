@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 // Add your routes here - above the module.exports line
-router.post('/user-radio-group', function(req, res) {
+router.post('/determine-route', function(req, res) {
     /*
     if the answer is yes
         take to declaration page
